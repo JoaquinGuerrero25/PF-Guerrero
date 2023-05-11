@@ -1,13 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 // font-family: 'Roboto', sans-serif;
-
+// font-family: 'Open Sans', sans-serif;
 
 // variables
 
 // box-shadow
 $sombra: 7px 7px 7px #00000059;
 // font-family
-$titulos-principales: 'Roboto', sans-serif;
+$titulos-principales:'Roboto', sans-serif;
+$texto:'Open Sans', sans-serif;
+// titulos-media / tam-text
+// movil
+$tam-movil:25px;
+$tam-text-movil:16px;
+// desktop
+
+
 
 *{
     margin: 0;
@@ -26,7 +35,7 @@ body{
     color: #fff;
     box-shadow: $sombra;
     .imagen-nav{
-        height: 80px;
+        height: 90px;
         margin: 0;
         padding: 0;
     }
@@ -68,6 +77,8 @@ body{
     }
     p{
         text-align: justify;
+        font-size: $tam-text-movil;
+        font-family: $texto;
     }
 }
 
@@ -87,7 +98,7 @@ footer{
     background-color: #0C3869;
     .footer-iconos a i{
         text-decoration: none;
-        font-size: 30px;
+        font-size: $tam-movil;
         transition: transform 0.2s ease-in-out;
         margin-top: 12px;
         padding: 15px;
@@ -104,3 +115,5 @@ footer{
         font-size: 15px;
     }
 }
+
+@import "_cursos.scss";

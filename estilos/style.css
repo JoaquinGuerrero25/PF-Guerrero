@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -17,7 +18,7 @@ body {
   box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.3490196078);
 }
 .navbar .imagen-nav {
-  height: 80px;
+  height: 90px;
   margin: 0;
   padding: 0;
 }
@@ -59,6 +60,8 @@ body {
 }
 .contenido-pagina-inicio p {
   text-align: justify;
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
 }
 
 .carousel-inicio {
@@ -77,7 +80,7 @@ footer {
 }
 footer .footer-iconos a i {
   text-decoration: none;
-  font-size: 30px;
+  font-size: 25px;
   transition: transform 0.2s ease-in-out;
   margin-top: 12px;
   padding: 15px;
@@ -92,4 +95,36 @@ footer .txt-footer {
   text-align: center;
   padding: 5px;
   font-size: 15px;
+}
+
+.contenedor-cursos {
+  margin: 25px auto;
+  max-width: 85%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.contenedor-cursos .card {
+  box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.3490196078);
+}
+.contenedor-cursos .card h5 {
+  font-family: "Roboto", sans-serif;
+  font-weight: bolder;
+  text-shadow: 7px 7px 7px rgba(0, 0, 0, 0.3490196078);
+  font-size: 25px;
+}
+.contenedor-cursos .card p {
+  font-family: "Open Sans", sans-serif;
+  color: black;
+  font-size: 16px;
+}
+.contenedor-cursos .card a {
+  box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.3490196078);
+  transition: all 0.2s ease-in-out;
+}
+.contenedor-cursos .card a:hover {
+  transform: scale(1.1);
 }/*# sourceMappingURL=style.css.map */

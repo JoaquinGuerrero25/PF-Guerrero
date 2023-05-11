@@ -1,0 +1,31 @@
+.contenedor-cursos{
+    margin: 25px auto;
+    max-width: 85%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    .card{
+        box-shadow: $sombra;
+        h5{
+            font-family: $titulos-principales;
+            font-weight: bolder;
+            text-shadow: $sombra;
+            font-size: $tam-movil;
+        }
+        p{
+            font-family: $texto;
+            color: black;
+            font-size: $tam-text-movil;
+        }
+        a{
+            box-shadow: $sombra;
+            transition: all 0.2s ease-in-out;
+        }
+        a:hover{
+            transform: scale(1.1);
+        }
+    }
+}
