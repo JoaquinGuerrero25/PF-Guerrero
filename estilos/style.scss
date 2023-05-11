@@ -74,6 +74,8 @@ body{
         font-family: $titulos-principales;
         text-align: left;
         font-weight: bold;
+        color: #fff;
+        text-shadow: $sombra;
     }
     p{
         text-align: justify;
@@ -117,3 +119,4 @@ footer{
 }
 
 @import "_cursos.scss";
+@import "_contactanos.scss";

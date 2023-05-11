@@ -57,6 +57,8 @@ body {
   font-family: "Roboto", sans-serif;
   text-align: left;
   font-weight: bold;
+  color: #fff;
+  text-shadow: 7px 7px 7px rgba(0, 0, 0, 0.3490196078);
 }
 .contenido-pagina-inicio p {
   text-align: justify;
@@ -105,7 +107,7 @@ footer .txt-footer {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 20px;
+  gap: 30px;
 }
 .contenedor-cursos .card {
   box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.3490196078);
@@ -127,4 +129,34 @@ footer .txt-footer {
 }
 .contenedor-cursos .card a:hover {
   transform: scale(1.1);
+}
+
+.main-contactanos {
+  margin: 55px auto;
+}
+.main-contactanos h4 {
+  margin: 0 auto;
+  text-align: center;
+  font-size: 25px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bolder;
+  color: #fff;
+  text-shadow: 7px 7px 7px rgba(0, 0, 0, 0.3490196078);
+  margin-bottom: 9px;
+}
+.main-contactanos .formulario-de-contacto {
+  background-color: #fff;
+  width: 80%;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+.main-contactanos .mapa-contactanos {
+  margin: 10px auto;
+  height: 300px;
+  width: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }/*# sourceMappingURL=style.css.map */
