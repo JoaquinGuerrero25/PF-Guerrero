@@ -6,7 +6,7 @@
 // variables
 
 // box-shadow
-$sombra: 7px 7px 7px #00000059;
+$sombra: 7px 7px 7px #00000073;
 // font-family
 $titulos-principales:'Roboto', sans-serif;
 $texto:'Open Sans', sans-serif;
@@ -90,6 +90,10 @@ body{
         margin: 20px;
     }
 }
+@import "_cursos.scss";
+
+@import "_contactanos.scss";
+
 
 // Footer
 footer{
@@ -118,5 +122,7 @@ footer{
     }
 }
 
-@import "_cursos.scss";
-@import "_contactanos.scss";
+@import '_media768.scss';
+@import '_media992.scss';
+@import '_media1400.scss';
+

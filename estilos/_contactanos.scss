@@ -1,22 +1,12 @@
 .main-contactanos{
     margin: 55px auto;
-    h4{
-        margin: 0 auto;
-        text-align: center;
-        font-size: $tam-movil;
-        font-family: $titulos-principales;
-        font-weight: bolder;
-        color: #fff;
-        text-shadow: $sombra;
-        margin-bottom: 9px;
-    }
     .formulario-de-contacto{
         background-color: #fff;
         width: 80%;
         padding: 20px;
         border-radius: 10px;
         margin: 0 auto;
-        margin-bottom: 20px;
+        margin-bottom: 60px;
     }
     .mapa-contactanos {
         margin: 10px auto;
@@ -25,5 +15,6 @@
         display: block;
         margin-left: auto;
         margin-right: auto;
+        border-radius: 5px;
     }
 }

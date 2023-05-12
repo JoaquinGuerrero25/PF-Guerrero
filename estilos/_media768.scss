@@ -1,0 +1,37 @@
+@media only screen and (min-width: 768px){
+    .navbar{
+        height: 150px;
+        .imagen-nav{
+            height: 120px;
+        }
+        .navbar-collapse {
+            justify-content: space-between;
+        }
+        .titulo-container {
+            flex-grow: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .titulo-principal {
+            display: inline;
+            font-family: $titulos-principales;
+            font-size: 26px;
+            text-align: center;
+            text-shadow: $sombra;
+            font-weight: bold;
+        }
+        ul{
+            margin-left: auto;
+        }
+    }
+    // cursos
+    #titulo-cursos{
+        font-size: 45px;
+    }
+    // contactanos
+    #titulo-contactanos{
+        font-size: 45px;
+    }
+}

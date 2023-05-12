@@ -1,0 +1,59 @@
+// inicio
+@media only screen and (min-width: 992px){
+    .navbar{
+        height: 160px;
+        .imagen-nav{
+            height: 130px;
+        }
+        .titulo-principal{
+            font-size: 38px;
+        }
+    }
+    .fondo-inicio img{
+        height: 550px;
+    }
+    .contenido-pagina-inicio {
+        width: 90%;
+        margin: 0 auto;
+        h2{
+            font-size: 40px;
+        }
+        p{
+            font-size: 20px;
+        }
+    }
+    .carousel-inicio{
+        padding-left: 100px;
+        padding-right: 100px;
+        button{
+            margin: 40px;
+        }
+    }
+    // Cursos
+    #titulo-cursos{
+        font-size: 60px;
+    }
+    .contenedor-cursos{
+        margin-top: 80px;
+        max-width: 60%;
+        gap: 60px;
+    }
+    // contactanos
+    #titulo-contactanos{
+        font-size: 55px;
+    }
+    .main-contactanos{
+        margin-top:  100px;
+        .formulario-de-contacto{
+            width: 60%;
+            box-shadow: $sombra;
+        }
+        .mapa-contactanos{
+            margin-top: 20px;
+            width: 60%;
+            height: 400px;
+            box-shadow: $sombra;
+            border-radius: 10px;
+        }
+    }
+}

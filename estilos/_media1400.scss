@@ -1,0 +1,84 @@
+@media only screen and (min-width: 1400px){
+    // inicio
+    .navbar{
+        height: 180px;
+        .imagen-nav{
+            height: 150px;
+        }
+        .titulo-principal{
+            font-size: 65px;
+        }
+        li{
+            border-bottom: none;
+            a{
+                font-size: 25px;
+                padding: 10px;
+                margin-right: 10px;
+            }
+        }
+    }
+    .fondo-inicio img{
+        height: 800px;
+    }
+    .contenido-pagina-inicio {
+        width: 80%;
+        h2{
+            font-size: 55px;
+        }
+        p{
+            font-size: 25px;
+        }
+    }
+    .carousel-inicio{
+        padding-left: 250px;
+        padding-right: 250px;
+        margin-bottom: 110px;
+        img{
+            border-radius: 25px;
+        }
+        button{
+            margin: 160px;
+        }
+    }
+    // cursos
+    #titulo-cursos{
+        font-size: 80px;
+    }
+    .contenedor-cursos{
+        flex-direction: row;
+        max-width: 100%;
+        padding: 100px;
+        .card{
+            height: 650px;
+            width: 100%;
+        }
+        img{
+            height:300px;
+            width: 100%;
+            object-fit: cover;
+        }
+        h5{
+            font-size: 35px;
+        }
+    }
+    // contactanos
+    #titulo-contactanos{
+        font-size: 70px;
+    }
+    .main-contactanos{
+        .formulario-de-contacto{
+            width: 50%;
+        }
+        .mapa-contactanos{
+            width: 50%;
+        }
+    }
+    footer{
+        .footer-iconos a i{
+            font-size: 40px;
+        }
+        .txt-footer{
+            font-size: 20px;
+        }
+    }
+}   
