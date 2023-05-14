@@ -1,14 +1,8 @@
 .contenedor-cursos{
-    margin: 25px auto;
-    max-width: 85%;
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 30px;
+    @include cards;
     .card{
         box-shadow: $sombra;
+        width: calc($ancho - 15px);
         h5{
             font-family: $titulos-principales;
             font-weight: bolder;

@@ -10,12 +10,34 @@ $sombra: 7px 7px 7px #00000073;
 // font-family
 $titulos-principales:'Roboto', sans-serif;
 $texto:'Open Sans', sans-serif;
-// titulos-media / tam-text
-// movil
+// titulos-media
 $tam-movil:25px;
 $tam-text-movil:16px;
-// desktop
+// ancho
+$ancho: 100%;
 
+// utilizo mixin para las cards de la pagina cursos y las de nivel inicial, intermedio y avanzado
+@mixin cards{
+    margin: 25px auto;
+    max-width: $ancho - 15%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+@mixin cont-paginas{
+    .card{
+        box-shadow: $sombra;
+        p{
+            font-family: $texto;
+            color: black;
+            font-size: $tam-text-movil;
+        }
+    }
+}
 
 
 *{
@@ -26,7 +48,7 @@ $tam-text-movil:16px;
 
 body{
     height: 100vh;
-    width: 100%;
+    width: $ancho;
     background-color:#5785C1;
 }
 // vista para dispositivo movil
@@ -62,7 +84,7 @@ body{
 }
 
 .fondo-inicio img{
-    width: 100%;
+    width: $ancho;
     height: 350px;
     object-fit: cover;
 }
@@ -91,6 +113,8 @@ body{
     }
 }
 @import "_cursos.scss";
+
+@import '_pagina_niveles.scss';
 
 @import "_contactanos.scss";
 

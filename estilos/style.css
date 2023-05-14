@@ -85,6 +85,7 @@ body {
 }
 .contenedor-cursos .card {
   box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.4509803922);
+  width: calc(100% - 15px);
 }
 .contenedor-cursos .card h5 {
   font-family: "Roboto", sans-serif;
@@ -102,6 +103,31 @@ body {
   transition: all 0.2s ease-in-out;
 }
 .contenedor-cursos .card a:hover {
+  transform: scale(1.1);
+}
+
+.contenedor-paginas {
+  margin: 25px auto;
+  max-width: 85%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.contenedor-paginas .card {
+  box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.4509803922);
+}
+.contenedor-paginas .card p {
+  font-family: "Open Sans", sans-serif;
+  color: black;
+  font-size: 16px;
+}
+.contenedor-paginas .card {
+  transition: all 0.3s ease-in-out;
+}
+.contenedor-paginas .card:hover {
   transform: scale(1.1);
 }
 
@@ -221,7 +247,12 @@ footer .txt-footer {
   }
   .contenedor-cursos {
     margin-top: 80px;
-    max-width: 60%;
+    width: 60%;
+    gap: 60px;
+  }
+  .contenedor-paginas {
+    margin-top: 80px;
+    width: 60%;
     gap: 60px;
   }
   #titulo-contactanos {
@@ -288,11 +319,10 @@ footer .txt-footer {
   }
   .contenedor-cursos {
     flex-direction: row;
-    max-width: 100%;
-    padding: 100px;
+    width: 100%;
   }
   .contenedor-cursos .card {
-    height: 650px;
+    height: 600px;
     width: 100%;
   }
   .contenedor-cursos img {
@@ -303,6 +333,30 @@ footer .txt-footer {
   }
   .contenedor-cursos h5 {
     font-size: 35px;
+  }
+  .contenedor-paginas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .contenedor-paginas .card {
+    height: 350px;
+    width: calc(33.33% - 20px);
+    margin-bottom: 100px;
+    transition: all 0.3s ease-in-out;
+  }
+  .contenedor-paginas p {
+    text-decoration: none;
+  }
+  .contenedor-paginas img {
+    height: 250px;
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .contenedor-paginas .card:hover {
+    transform: scale(1.1);
   }
   #titulo-contactanos {
     font-size: 70px;

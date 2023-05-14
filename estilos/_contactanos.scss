@@ -2,7 +2,7 @@
     margin: 55px auto;
     .formulario-de-contacto{
         background-color: #fff;
-        width: 80%;
+        width: $ancho - 20%;
         padding: 20px;
         border-radius: 10px;
         margin: 0 auto;
@@ -11,7 +11,7 @@
     .mapa-contactanos {
         margin: 10px auto;
         height: 300px;
-        width: 80%;
+        width: $ancho - 20%;
         display: block;
         margin-left: auto;
         margin-right: auto;

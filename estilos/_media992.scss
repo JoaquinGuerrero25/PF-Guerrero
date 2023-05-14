@@ -13,7 +13,7 @@
         height: 550px;
     }
     .contenido-pagina-inicio {
-        width: 90%;
+        width: $ancho - 10%;
         margin: 0 auto;
         h2{
             font-size: 40px;
@@ -35,7 +35,13 @@
     }
     .contenedor-cursos{
         margin-top: 80px;
-        max-width: 60%;
+        width: $ancho - 40%;
+        gap: 60px;
+    }
+    // pagina niveles
+    .contenedor-paginas{
+        margin-top: 80px;
+        width: $ancho - 40%;
         gap: 60px;
     }
     // contactanos
@@ -45,12 +51,12 @@
     .main-contactanos{
         margin-top:  100px;
         .formulario-de-contacto{
-            width: 60%;
+            width: $ancho - 40%;
             box-shadow: $sombra;
         }
         .mapa-contactanos{
             margin-top: 20px;
-            width: 60%;
+            width: $ancho - 40%;
             height: 400px;
             box-shadow: $sombra;
             border-radius: 10px;
