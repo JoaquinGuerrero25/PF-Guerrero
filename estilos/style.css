@@ -322,7 +322,7 @@ footer .txt-footer {
     width: 100%;
   }
   .contenedor-cursos .card {
-    height: 600px;
+    height: 650px;
     width: 100%;
   }
   .contenedor-cursos img {
@@ -341,7 +341,7 @@ footer .txt-footer {
     width: 100%;
   }
   .contenedor-paginas .card {
-    height: 350px;
+    height: 387px;
     width: calc(33.33% - 20px);
     margin-bottom: 100px;
     transition: all 0.3s ease-in-out;

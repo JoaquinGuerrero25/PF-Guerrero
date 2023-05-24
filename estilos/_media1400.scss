@@ -48,7 +48,7 @@
         flex-direction: row;
         width: $ancho;
         .card{
-            height: 600px;
+            height: 650px;
             width: $ancho;
         }
         img{
@@ -67,7 +67,7 @@
         justify-content: space-between;
         width: $ancho;
         .card{
-            height: 350px;
+            height: 387px;
             width: calc(33.33% - 20px);
             margin-bottom: 100px;
             transition: all 0.3s ease-in-out;
